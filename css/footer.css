@@ -1,0 +1,18 @@
+.flexbox{
+    box-shadow: 5px 5px 10px;
+    min-height: 50px;
+  width:300px;
+  margin: 100px auto;
+  background: rgb(238, 238, 238);
+  border-radius: 5px;
+}
+#boxs p{
+  
+    color:rgb(159, 55, 190);
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top: 10px;
+   
+}
+

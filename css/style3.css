@@ -1,0 +1,32 @@
+#navbar{
+
+    background-color:#e6e6e6;
+}
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d9d9d9;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link
+
+ {
+    background:#730099;
+    color: #fff;
+}
+.nav-link:hover{
+    background:#730099 ;
+    
+}
+.btn:hover{
+    color: #fff;
+     background-color:#730099;
+    border-color:#730099;
+    border: 1px solid #dd99ff;
+}
+.navbar-nav .btn{
+    color: #730099;
+    background-color:#e6e6e6;
+    border-color:#730099;
+    
+}

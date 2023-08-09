@@ -1,0 +1,83 @@
+.container-1 {
+
+    border:1px solid black ;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-1{
+     display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.flex-box-container-1 iframe{
+    box-shadow: 0px 10px 50px rgba(0,0,0, 0.7);
+
+}
+.flex-box-container-1 h1{
+    margin-left: -40px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 19px;
+    font-weight: 900;
+    margin-right: -200px;
+    color:rgb(159, 55, 190);
+}
+#box{
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    height:300px;
+    width: 400px;
+}
+#box p{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+}
+#name{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d9d9d9;
+}
+#memname{
+    margin-top: 40px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d9d9d9;
+}
+#box1{
+    margin-left: 800px;
+    width: 300px;
+    color:rgb(159, 55, 190);
+}
+#box1 p{
+    padding-left: 95px;
+
+    
+}
+
+#box2{
+    height: 50px;
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: 10px;
+}
+#button1 {
+    background: #a75fd1;
+}
+
+
+.card{
+    background: #792a99;
+}
+.btn1{
+    background: #f1f1f1;
+    color: #792a99;
+}

@@ -1,0 +1,185 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Cantata+One);
+.pic{
+    border-radius:90px;
+    box-shadow:#666 2px 2px 10px;
+    height: 100px;
+    width: 100px;
+}
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #730099;
+  border-radius: 30px;
+  padding: 10px;
+  }
+  ::placeholder { 
+    color: rgba(178, 75, 219, 0.932);
+    opacity: 1; 
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: rgba(178, 75, 219, 0.932);
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
+  #search1{
+   margin-top: 10px;
+    margin-bottom: -100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+
+  
+}
+.container thead tr{
+  background: linear-gradient(90deg, rgba(72,9,113,1) 0%, rgba(136,84,179,1) 35%, rgba(255,255,255,1) 100%);
+ 
+}
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  
+ 
+}
+
+.container td {
+  font-family: "Cantata One", serif;
+  
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(72,9,113,1);
+  color:#eeeeee;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container td, .container th {
+	  padding-bottom: 2%;
+	  padding-top: 2%;
+  padding-left:2%;  
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+  background: linear-gradient(90deg, rgba(72,9,113,1) 0%, rgba(136,84,179,1) 35%, rgba(255,255,255,1) 100%);
+ 
+}
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: rgba(72,9,113,1);
+}
+
+
+
+.container td:first-child { color: rgb(201, 132, 233);
+padding-right: 10px; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	   -moz-box-shadow: 0 6px 6px -6px #0E1119;
+	        box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container td:hover {
+  background-color: #eeeeee;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #8627a3 -1px 1px, #8627a3 -2px 2px, #8627a3 -3px 3px, #8627a3 -4px 4px, #8627a3 -5px 5px, #8627a3 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}

@@ -1,0 +1,18 @@
+.container-1 {
+  border: 1px solid black;
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  height: 350px;
+  background-image: url(https://i.imgur.com/vPVo1ho.gif);
+}
+
+.container-2 {
+  border: 1px solid black;
+  width: 1400px;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  height: 1000px;
+}
